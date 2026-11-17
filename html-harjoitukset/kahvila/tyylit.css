@@ -27,3 +27,11 @@ p {
     font-size: 16px;
     margin-bottom: 15px;
 }
+
+/* VAIHE 3: Yläosan tyylit */
+#header {
+    background-color: #70452c;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
