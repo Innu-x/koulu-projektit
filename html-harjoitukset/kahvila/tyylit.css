@@ -63,3 +63,14 @@ padding: 20px;
     object-fit: cover;
     border-radius: 10px;
 }
+
+/* VAIHE 6: Listojen tyylit */
+.tiedot-lista,
+.ohjeet-lista {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.tiedot-lista li,
+.ohjeet-lista li {
+    margin-bottom: 8px;
+}
