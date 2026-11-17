@@ -1,11 +1,29 @@
 /* VAIHE 1: CSS-nollaus ja taustaväri */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #f5f1e8;
+}
+
+/*VAIHE 2: Fontit ja tekstien tyylit */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #3e342c;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 24px;
+    color: #70452c;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
 }
