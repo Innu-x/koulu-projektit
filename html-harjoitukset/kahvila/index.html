@@ -19,28 +19,80 @@
         Voit nauttia meillä rauhallisesta ympäristöstä ja 
         paikallisesta kahvista sekä makeisista.
     </p>
-      <div class="kuva-ryhma"> kuvat tähän </div>
+      <div class="kuva-ryhma"> <img src="kuvat/kahvikuppi.jpeg" alt="Kahvikuppi"> 
+        <img src="kuvat/pulla.jpeg" alt="Korvapuustit">
+        <img src="kuvat/tikkari.jpeg" alt="Leivotut tikkarit"> 
+        <img src="kuvat/makeinen.jpeg" alt="Makeiset"> </div>
     </section>
 
     <section class="osio">   <!-- osio 2: listat -->
-      <h2>...</h2>
-      <ul class="tiedot-lista"> ... </ul>
-      <ol class="ohje-lista"> ... </ol>
+      <h2>Valikoima ja tilaaminen</h2>
+      <ul class="tiedot-lista"> 
+        <li>Suodatinkahvi</li>
+        <li>Espresso</li>
+        <li>Latte</li>
+        <li>Tee</li>
+        <li>Korvapuusti</li>
+        <li>Leivotut tikkarit</li>
+        <li>Makeiset</li>
+        <li>Lounas</li>
+    </ul>
+    <h3>Tilauksen tekeminen</h3>
+      <ol class="ohje-lista">
+        <li>Valitse haluamasi tuote</li>
+        <li>Lisää tuote ostoskoriin</li>
+        <li>Siirry kassalle</li>
+        <li>Odota, että tilauksesi valmistuu</li>
+        <li>Nauti kahvilan herkuista!</li>
+      </ol>
     </section>
 
     <section class="osio">   <!-- osio 3: taulukko -->
-      <h2>...</h2>
-      <table class="aika-taulukko"> ... </table>
+      <h2>Lounaslista</h2>
+      <table class="aika-taulukko"> 
+        <tr>
+          <th>Päivä</th>
+          <th>Aika</th>
+          <th>Päivän lounas</th>
+        </tr>
+        <tr>
+          <td>Maanantai</td>
+          <td>11:00 - 14:00</td>
+          <td>Jauhelihakastike ja perunamuusi</td>
+        </tr>
+        <tr>
+            <td>Keskiviikko</td>
+            <td>11:00 - 14:00</td>
+            <td>Lohikeitto ja ruisleipä</td>
+        </tr>
+        <tr>
+            <td>Perjantai</td>
+            <td>11:00 - 14:00</td>
+            <td>Hernekeitto</td>
+        </tr>
+      </table>
     </section>
 
-    <section class="osio">   <!-- osio 4: lomake -->
-      <h2>...</h2>
-      <form> ... </form>
+    <section class="osio">
+        <h2>Pöytävaraus</h2>
+
+        <form method="post" action="#">
+            <label for="nimi">Nimi:</label>
+            <input type="text" id="nimi" name="nimi" class="lomake-kentta">
+
+            <label for="sahkoposti">Sähköposti:</label>
+            <input type="email" id="sahkoposti" name="sahkoposti" class="lomake-kentta">
+
+            <label for="viesti">Varaustoive:</label>
+            <textarea id="viesti" name="viesti" class="lomake-kentta"></textarea>
+
+            <button type="submit" class="nappi">Lähetä</button>
+        </form>
     </section>
 
     <section class="osio">   <!-- osio 5: linkit -->
-      <h2>...</h2>
-      <a class="linkki" href="..."> ... </a>
+    <h2>...</h2>
+    <a class="linkki" href="..."> ... </a>
     </section>
 
   </div>
