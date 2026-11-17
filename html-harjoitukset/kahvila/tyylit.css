@@ -74,3 +74,24 @@ padding: 20px;
 .ohjeet-lista li {
     margin-bottom: 8px;
 }
+
+/* VAIHE 7: Taulukon tyylit */
+.aika-taulukko {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+.aika-taulukko th,
+.aika-taulukko td {
+    border: 1px solid #cbb9a8;
+    padding: 12px;
+    text-align: left;
+}
+
+.aika-taulukko th {
+    background-color: #70452c;
+    color: white;
+}
+.aika-taulukko tr:nth-child(even) {
+    background-color: #f5f1e8;
+}
