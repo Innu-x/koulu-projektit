@@ -1,0 +1,11 @@
+/* VAIHE 1: CSS-nollaus ja taustaväri */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f1e8;
+}
