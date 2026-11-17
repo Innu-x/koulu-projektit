@@ -49,3 +49,17 @@ padding: 20px;
     margin-bottom: 25px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* VAIHE 5: Kuvien tyylit */
+.kuva.ryhma {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.kuva.ryhma img {
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
