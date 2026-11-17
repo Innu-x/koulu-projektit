@@ -35,3 +35,17 @@ p {
     text-align: center;
     padding: 30px 20px;
 }
+
+/* VAIHE 4: Sisältöalue ja osiot */
+.container {
+max-width: 1000px;
+margin: 0 auto;
+padding: 20px;    
+}
+.osio {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
