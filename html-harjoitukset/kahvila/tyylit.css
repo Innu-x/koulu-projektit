@@ -51,13 +51,13 @@ padding: 20px;
 }
 
 /* VAIHE 5: Kuvien tyylit */
-.kuva.ryhma {
+.kuva-ryhma {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
 }
-.kuva.ryhma img {
+.kuva-ryhma img {
     width: 200px;
     height: 160px;
     object-fit: cover;
@@ -66,12 +66,12 @@ padding: 20px;
 
 /* VAIHE 6: Listojen tyylit */
 .tiedot-lista,
-.ohjeet-lista {
+.ohje-lista {
     padding-left: 25px;
     margin-bottom: 20px;
 }
 .tiedot-lista li,
-.ohjeet-lista li {
+.ohje-lista li {
     margin-bottom: 8px;
 }
 
@@ -152,7 +152,7 @@ padding: 20px;
     h2 {
         font-size: 20px;
     }
-    .kuva.ryhma img {
+    .kuva-ryhma img {
         width: 100%;
         height: auto;
     }
