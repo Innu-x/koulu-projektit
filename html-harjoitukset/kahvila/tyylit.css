@@ -117,3 +117,12 @@ padding: 20px;
 }
 
 /* VAIHE 9: Responsiivisuus */
+.linkki {
+    text-decoration: none;
+    color: #8b572a;
+    font-weight: bold;
+}
+.linkki:hover {
+    color: #50301e;
+    text-decoration: underline;
+}
