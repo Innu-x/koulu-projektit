@@ -138,3 +138,29 @@ padding: 20px;
     margin-bottom: 0;
 }
 
+/* VAIHE 11: Responsiivisuus */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .osio {
+        padding: 15px;
+    }
+    #header h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .kuva.ryhma img {
+        width: 100%;
+        height: auto;
+    }
+    .aika-taulukko {
+        font-size: 14px;
+    }
+    .aika-taulukko th,
+    .aika-taulukko td {
+        padding: 7px;
+    }
+}
