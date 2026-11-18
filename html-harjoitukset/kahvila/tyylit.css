@@ -116,7 +116,7 @@ padding: 20px;
     font-size: 16px;
 }
 
-/* VAIHE 9: Responsiivisuus */
+/* VAIHE 9: Linkkien tyylit */
 .linkki {
     text-decoration: none;
     color: #8b572a;
@@ -126,3 +126,15 @@ padding: 20px;
     color: #50301e;
     text-decoration: underline;
 }
+
+/* VAIHE 10: Sivun alaosan tyylit */
+#footer {
+    background-color: #70452c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#footer p {
+    margin-bottom: 0;
+}
+
