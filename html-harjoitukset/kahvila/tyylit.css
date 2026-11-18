@@ -95,3 +95,25 @@ padding: 20px;
 .aika-taulukko tr:nth-child(even) {
     background-color: #f5f1e8;
 }
+
+/* VAIHE 8: Lomakkeiden tyylit */
+.lomake-kentta {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cbb9a8;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.nappi {
+    background-color: #70452c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* VAIHE 9: Responsiivisuus */
